@@ -23,8 +23,9 @@ func New() *manager {
 	return &manager{}
 }
 
-func (m *manager) Register(name string, router Router) {
+func (m *manager) Register(name string, router Router) *manager {
 	m.routers.Store(name, router)
+	return m
 }
 
 func (m *manager) Use(middleware MiddlewareFunction) {
