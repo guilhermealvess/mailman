@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" alt="Mailman Logo" width="250"/>
+  <img src="assets/gopher_mailman.png" alt="Mailman Logo" width="250"/>
   <h1>Mailman</h1>
   <p>
     <b>Simplifique e unifique o processamento de mensagens em Go.</b>
